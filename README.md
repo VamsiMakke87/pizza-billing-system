@@ -1,7 +1,3 @@
-Absolutely! Here's the updated `README.md` with the **Factory Design Pattern** included in the architecture and design sections:
-
----
-
 # 🍕 Customizable Pizza Ordering System
 
 A Java-based, extensible pizza ordering system using **Decorator**, **Strategy**, and **Factory** design patterns. This system supports customizable crust types, multiple vegetarian and non-vegetarian toppings, and dynamic pricing based on pizza size.
