@@ -97,7 +97,8 @@ This simplifies object creation and adheres to the **Open/Closed Principle**, ma
 
    ```java
    System.out.println("Order: " + pizza.getDescription());
-   System.out.println("Total: $" + pizza.getPrice());
+   System.out.println("Pizza Size: " + priceStrategy.getPizzaSize());
+   System.out.println("Price: $" + pizza.getPrice());
    ```
 
 ---
@@ -129,8 +130,9 @@ Handled via the `PriceStrategyFactory`.
 ## 🧪 Sample Output
 
 ```text
-Order: Thick Crust , Mushrooms , Cheese , Chicken
-Total: $24.0
+Order: Thick Crust , Bacon , Cheese
+Pizza Size: MEDIUM
+Price: $22.5
 ```
 
 ---
